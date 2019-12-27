@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "12.13.1",
+  "description": "simple web app",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brayohdephaz/INTRO-TO-NODE.git"
+  },
+  "author": "Brian Murithi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brayohdephaz/INTRO-TO-NODE/issues"
+  },
+  "homepage": "https://github.com/brayohdephaz/INTRO-TO-NODE#readme"
+}
