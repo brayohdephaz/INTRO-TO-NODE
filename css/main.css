@@ -6,6 +6,9 @@ body{
     background-color: #777777;
     background-attachment: fixed;
 }
+.wrapper{
+	background: blue;
+}
 .drop-menu:hover .drop-items{
 	display: block;
 }
@@ -30,5 +33,12 @@ ul li{
 }
 
 #progress{
-	background: linear-gradient(rgb(0,0,0,.5),rgb(0,0,0,.5)) ,url(../bg.jpg)center/cover no-repeat fixed;
+	background: linear-gradient(rgb(0,0,0,.5),rgb(0,0,0,.5)) ,url(http://drive.google.com/thumbnail?id=1ljb2aW4sghh_r8rEmxnCXzLtbwfFSd2N)center/cover no-repeat fixed;
+}
+
+.title-underline{
+	width: 200px;
+	height: 10px;
+	margin: 0 auto;
+	/*background: blue !important;*/
 }
