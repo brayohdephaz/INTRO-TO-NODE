@@ -21,7 +21,7 @@
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    background-color: #777777;
+  /*  //background-color: #777777;*/
     background-attachment: fixed;
 }
 .height-0{
@@ -42,23 +42,42 @@
   margin: 0 auto;
   /*background: blue !important;*/
 }
+nav ul li a,.navbar-brand  {
+  color: white !important;
+}
+nav ul{
+
+}
 </style>
-<body>
-    <nav class="navbar sticky-top fixed-top navbar-expand-lg navbar-light bg-secondary">
-        <a class="navbar-brand" href="index">Dephaz</a>
+<body class="bg-primary">
+    <nav style="color: white !important;" class="p-2 navbar sticky-top fixed-top navbar-expand-lg navbar-light bg-info">
+        <a class="navbar-brand mx-5" href="index"><img width="25" class=" mx-3 img-fluid rounded-circle"  src="http://drive.google.com/thumbnail?id=1y34tou12vdHKzZ1s4sJo741lNn0sNvC-">Brian Murithi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Mymainmenu" aria-controls="Mymainmenu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="Mymainmenu">
             <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                    <a class="nav-link text-uppercase" href="index">Home <span class="sr-only">(current)</span></a>
+                </li>
  
                   <li class="nav-item active">
-                    <a class="nav-link" href="about">About me <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-uppercase" href="about">About me <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="resume">Resume <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-uppercase" href="#">services <span class="sr-only">(current)</span></a>
                 </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-uppercase" href="resume">Resume <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-uppercase" href="#">blog <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-uppercase" href="#">contact me <span class="sr-only">(current)</span></a>
+                </li>
+                
             </ul>
            <!--  <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -66,6 +85,10 @@
             </form> -->
         </div>
     </nav><br>
+    <div class="row">
+      <div class="container-fluid jumbotron-hr bg-white"></div>
+      
+    </div>
 
 
 <!-- ABOUT ME SECTION -->
