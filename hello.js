@@ -1,5 +1,5 @@
 //console.log("Hello world!");
-var http = require('http');
+
 // var url = require('url');
 
 // http.createServer(function (req, res){
@@ -11,6 +11,7 @@ var http = require('http');
 
 
 //CALLING THE FILE SYSTEM MODULE
+var http = require('http');
  var fs = require('fs');
  var url = require('url');
  const PORT = process.env.PORT || 5000;

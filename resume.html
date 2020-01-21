@@ -2,25 +2,95 @@
 <html>
 <head>
   <title>MY RESUME</title>
+   <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- font awesome -->
+    <script type="text/javascript" src="js/all.js"></script>
+
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/264080ecbf.js"></script>
+    <!-- Personal css -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- Internal style -->
+  <style type="text/css">
+  body{
+  line-height: 26px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+  /*  //background-color: #777777;*/
+    background-attachment: fixed;
+}
+.height-0{
+  min-height: 20vh;
+}
+.text-underline{
+  width: 200px;
+  height: 20px;
+}
+
+#progress{
+  /*background: linear-gradient(rgb(0,0,0,.5),rgb(0,0,0,.5)) ,url(http://drive.google.com/thumbnail?id=1ljb2aW4sghh_r8rEmxnCXzLtbwfFSd2N)center/cover no-repeat fixed;*/
+}
+
+.title-underline{
+  width: 200px;
+  height: 10px;
+  margin: 0 auto;
+  /*background: blue !important;*/
+}
+nav ul li a,.navbar-brand  {
+  color: white !important;
+}
+nav ul{
+
+}
+.purple{
+  color: purple;
+}
+table{
+  border-left: transparent !important;
+}
+.address{
+  list-style: none;
+}
+</style>
+<!-- End of internal style -->
 </head>
 <body>
    <!-- Bootstrap Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand" href="index">Dephaz</a>
+    <!-- Nav -->
+    <nav style="color: white !important;" class="p-2 navbar sticky-top fixed-top navbar-expand-lg navbar-light bg-info">
+        <a class="navbar-brand mx-5" href="index"><img width="25" class=" mx-3 img-fluid rounded-circle"  src="http://drive.google.com/thumbnail?id=1y34tou12vdHKzZ1s4sJo741lNn0sNvC-">Brian Murithi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Mymainmenu" aria-controls="Mymainmenu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="Mymainmenu">
             <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                    <a class="nav-link text-uppercase" href="index">Home <span class="sr-only">(current)</span></a>
+                </li>
  
                   <li class="nav-item active">
-                    <a class="nav-link" href="about">About me <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-uppercase" href="about">About me <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="resume">Resume <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-uppercase" href="#">services <span class="sr-only">(current)</span></a>
                 </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-uppercase" href="resume">Resume <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-uppercase" href="#">blog <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-uppercase" href="#">contact me <span class="sr-only">(current)</span></a>
+                </li>
+                
             </ul>
            <!--  <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -28,9 +98,105 @@
             </form> -->
         </div>
     </nav><br>
+    <!-- End of navbar -->
     <div class="container">
+      <div class="row">
+        <div class="col text-center text-uppercase display-4">
 <h1>MY RESUME </h1>
-<P>This is MY RESUME</P>
+<!-- <P>This is MY RESUME</P> -->
 </div>
+</div>
+<div class="row">
+  <div class="col">
+    <table class="table table-responsive table-striped table-bordered table-secondary">
+      <div class="p-5">
+      <tr class="d-table-cell">
+        <td class="h3">BRIAN 
+MURITHI</td>
+<td class="h6 text-dark pl-5 text-right"><ul class="address">
+  <li>469 Chogoria, 60401 </li>
+  <li>+254706134387</li>
+  <li>Bm.mutwiri@gmail.com</li>
+  <li>Linkedin.com/in/brian-murithi</li>
+  <li>Twitter/Blog/Portfolio </li>
+</ul>
+</td>
+
+      </tr>
+      <tr>
+        <td class="">
+         <h3 class="text-dark text-center">Objective</h3>
+To gain entry-level position that values integrity, compassion, and teamwork
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <h3 class="text-dark text-center">Education</h3>
+<span class="purple">BSc Computer Science </span>| Kirinyaga university
+2018 to 2022
+        </td>
+      </tr>
+       <tr>
+       <td>
+        <h3 class="text-dark text-center"> Experience</h3> 
+<span class="purple">Cyber attendant</span> | Realmat cyber cafe
+mAY 2018 to AUGUST 2018
+
+        </td>
+      </tr>
+       <tr>
+       <td>
+          <h3 class="text-dark text-center">  Responibilities:</h3>
+          <ul>
+<li>Help customers with the use of computers and applications.</li>
+<li>Respond to customers who encounter error messages on accessing sites, emailing or downloading content.</li>
+<li>Troubleshooting hardware, terminals, software and connectivity issues.</li>
+<li>Assist customers with downloads, printing, and encoding.</li>
+</ul>
+        </td>
+      </tr>
+      <tr>
+       <td>
+         <h3 class="text-dark text-center">  Skills</h3>
+         <ul>
+<li>Basic Knowledge on: Javascript, HTML, CSS, PHP, C++</li>
+<Li>Database management: MySQL</Li>
+<li>Problem-solving abilities</li>
+<li>Teamwork</li>
+<li>Communication</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+ <h3 class="text-dark text-center"> INTERESTS:</h3>
+
+  <ul>
+<Li>Web development</li>
+<li>Software engineering</li>
+<li>Travelling</li>
+</ul>
+        </td>
+      </tr>
+
+      </div>
+    </table>
+  </div>
+</div>
+ 
+</div>
+
+
+
+<!-- Scripts -->
+<!-- jquery -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<!-- bootstrap js -->
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+<!-- bootstrap script cdn -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
